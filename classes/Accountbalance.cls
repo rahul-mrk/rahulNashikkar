@@ -24,7 +24,5 @@ public class Accountbalance {
 	public static list<contact> conlist(){
 	return [select lastname from contact limit 10];
 	}
-	public static list<contact> colist(){
-	return [select lastname from contact limit 5];
-	}
+	
 }
